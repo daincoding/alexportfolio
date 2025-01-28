@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import AboutMe from './components/AboutMe'
 import TechStack from './components/TechStack'
 import Cv from './components/Cv'
+import Projects from './components/Projects'
 
 // TODO: Add Links to NavBar
 // TODO: Think about adding NavBar fast scrolls
@@ -27,6 +28,7 @@ const App = () => {
         <AboutMe />
         <TechStack />
         <Cv />
+        <Projects />
       </div>
     </div>
   )

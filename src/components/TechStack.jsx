@@ -21,6 +21,7 @@ import {
   SiAdobepremierepro,
   SiAffinityphoto,
   SiDavinciresolve,
+  SiObsstudio
 } from "react-icons/si";
 import { DiSqllite } from "react-icons/di";
 import { GiGrimReaper } from "react-icons/gi";
@@ -116,6 +117,9 @@ const TechStack = () => {
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4 mt-10">
           <SiAdobeaftereffects className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4 mt-10">
+          <SiObsstudio className="text-7xl text-[#fff]" />
         </div>
       </div>
     </div>
