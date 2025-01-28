@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     role: "Freelancer",
     company: "dain. / Sound Designer & Composer",
     description: `Creating Music for people and for myself since multiple years. Also taking commissions especially for Streamers, providing high quality alerts and songs for their projects. Offering recording sessions and helping costumers realizing their projects.`,
-    technologies: ["Ableton", "Reaper", "DaVinci", "Audition"],
+    technologies: ["Ableton", "Reaper", "DaVinci", "Audition", "Adobe"],
   },
   {
     year: "2022 - 2024",

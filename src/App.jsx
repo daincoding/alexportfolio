@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 // TODO: Add Links to NavBar
+// TODO: ADD Spotify to NavBar
 // TODO: Think about adding NavBar fast scrolls
 // TODO: HERO: CHANGE PICTURE
 // TODO: AboutMe: CHANGE PICTURE - make it Scrollable?!?
