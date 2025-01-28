@@ -5,12 +5,17 @@ import AboutMe from './components/AboutMe'
 import TechStack from './components/TechStack'
 import Cv from './components/Cv'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 // TODO: Add Links to NavBar
 // TODO: Think about adding NavBar fast scrolls
 // TODO: HERO: CHANGE PICTURE
 // TODO: AboutMe: CHANGE PICTURE - make it Scrollable?!?
 // TODO: AboutMe: Contact and Location - under headline
+// TODO: Tech Stack: Hover Picture
+// TODO: Projects: Pictures, Content
+// TODO: Create Footer with Impressum & Datenschutz
 
 const App = () => {
   return (
@@ -29,6 +34,8 @@ const App = () => {
         <TechStack />
         <Cv />
         <Projects />
+        <Contact />
+        <Footer />
       </div>
     </div>
   )
