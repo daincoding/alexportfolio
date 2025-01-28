@@ -25,6 +25,7 @@ import {
 } from "react-icons/si";
 import { DiSqllite } from "react-icons/di";
 import { GiGrimReaper } from "react-icons/gi";
+import { motion } from 'framer-motion'
 
 const TechStack = () => {
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import { PROJECTS } from '../constants/infos'
+import { motion } from 'framer-motion'
 
 const Projects = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/Images/alex_logo.png'
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from '../assets/Images/kevinRushProfile.png'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (

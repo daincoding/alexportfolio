@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/Images/alex_logo.png'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (

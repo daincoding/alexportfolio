@@ -1,5 +1,6 @@
 import React from 'react'
 import { CONTACT } from '../constants/infos'
+import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (

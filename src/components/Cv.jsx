@@ -1,5 +1,6 @@
 import React from 'react'
 import { EXPERIENCES } from '../constants/infos'
+import { motion } from 'framer-motion'
 
 const Cv = () => {
   return (
