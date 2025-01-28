@@ -1,5 +1,10 @@
 import React from 'react'
 import Navbar from "./components/Navbar"
+import Hero from './components/Hero'
+
+// TODO: Add Links to NavBar
+// TODO: Think about adding NavBar fast scrolls
+// TODO: HERO: CHANGE PICTURE
 
 const App = () => {
   return (
@@ -13,6 +18,7 @@ const App = () => {
       </div>
       <div className='container mx-auto px-8'>
         <Navbar />
+        <Hero></Hero>
       </div>
     </div>
   )
