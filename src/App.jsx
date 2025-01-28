@@ -8,6 +8,7 @@ import TechStack from './components/TechStack'
 // TODO: Think about adding NavBar fast scrolls
 // TODO: HERO: CHANGE PICTURE
 // TODO: AboutMe: CHANGE PICTURE - make it Scrollable?!?
+// TODO: AboutMe: Contact and Location - under headline
 
 const App = () => {
   return (
