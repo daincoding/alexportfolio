@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from "./components/Navbar"
 import Hero from './components/Hero'
+import AboutMe from './components/AboutMe'
+import TechStack from './components/TechStack'
 
 // TODO: Add Links to NavBar
 // TODO: Think about adding NavBar fast scrolls
 // TODO: HERO: CHANGE PICTURE
+// TODO: AboutMe: CHANGE PICTURE - make it Scrollable?!?
 
 const App = () => {
   return (
@@ -18,7 +21,9 @@ const App = () => {
       </div>
       <div className='container mx-auto px-8'>
         <Navbar />
-        <Hero></Hero>
+        <Hero />
+        <AboutMe />
+        <TechStack />
       </div>
     </div>
   )
