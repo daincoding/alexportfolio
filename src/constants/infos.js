@@ -21,7 +21,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2022 - 2024",
-    role: "Sound Designer & Composer / Costumer Support",
+    role: "Sound Designer & Composer / Customer Support",
     company: "Blankhans GmbH",
     description: `Took care of everything that has to do with Sound. Recording, creating and also implementation into the project using the Unreal Engine. Worked also on Mixing and Mastering everything for the multiplayer game Coreborn as well as some smaller projects in UEFN. Also took responsibility of Costumer Support as well as Community Support.`,
     technologies: ["Unreal Engine", "Figma", "Ableton", "Reaper", "DaVinci", "Audition", "Jira"],
