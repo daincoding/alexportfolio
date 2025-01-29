@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../assets/Images/kevinRushProfile.png'
+import avatar from '../assets/Images/hero_Profile.png'
 import { motion } from 'framer-motion'
 
 const aniContainer = (delay) => ({
@@ -42,6 +42,8 @@ const Hero = () => {
                         <motion.img
                             src={avatar}
                             alt="Alexander Panske"
+                            width={550}
+                            className='rounded-xl'
                             initial={{ x: 100, opacity: 0}}
                             animate={{ x: 0, opacity: 1}}
                             transition={{ duration: 1, delay: 1.2}}

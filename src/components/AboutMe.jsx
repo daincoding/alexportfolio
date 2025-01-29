@@ -1,4 +1,4 @@
-import aboutimage from '../assets/Images/about.jpg'
+import aboutimage from '../assets/Images/about.png'
 import { motion } from 'framer-motion'
 
 const AboutMe = () => {

@@ -11,7 +11,6 @@ import Footer from './components/Footer'
 
 // TODO: HERO: CHANGE PICTURE
 // TODO: AboutMe: CHANGE PICTURE - make it Scrollable?!?
-// TODO: Projects: Pictures, Content
 // TODO: Create Footer with Impressum & Datenschutz
 
 const App = () => {
