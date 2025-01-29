@@ -1,7 +1,7 @@
-import project1 from "../assets/Images/project-1.jpg";
-import project2 from "../assets/Images/project-2.jpg";
-import project3 from "../assets/Images/project-3.jpg";
-import project4 from "../assets/Images/project-4.jpg";
+import project1 from "../assets/Images/project-1.png";
+import project2 from "../assets/Images/project-2.png";
+import project3 from "../assets/Images/project-3.png";
+import project4 from "../assets/Images/project-4.png";
 
 export const EXPERIENCES = [
   {
@@ -57,36 +57,41 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Tailwind CSS", "Figma", "JavaScript"],
+    link: 'https://alexander-panske.com',
   },
   {
-    title: "Task Management App",
+    title: "Music Portfolio",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "My music portfolio website, where I focused on using minimal JavaScript and primarily HTML and CSS.",
+    technologies: ["HTML", "CSS"],
+    link: 'https://dainsounds.netlify.app/',
   },
   {
-    title: "Portfolio Website",
+    title: "Hitless Guides",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A Website project for Team Hitless an online community for challenge gaming. The goal is to create a place where you find all the guides and tutorials for your challenge.",
+    technologies: ["HTML", "CSS", "React", "TypeScript", "Vite", "ChakraUI"],
+    link: 'https://hitlessguides.vercel.app/',
   },
   {
-    title: "Blogging Platform",
+    title: "Music Projects (dain. / 90 Miles / Toyou)",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "52 official released Songs - Over 12 Million Streams in total - 2 Remix Contest Wins: All my music projects together!",
+    technologies: ["Ableton", "Audition", "Adobe", "Affinity", "Notion"],
+    link: 'https://linktr.ee/dainspotify',
   },
 ];
 
 export const CONTACT = {
+  location: "Hanover, Germany",
   phoneNo: "+49 17672796953 ",
   email: "alexander.panske@yahoo.com",
 };

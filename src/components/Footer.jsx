@@ -18,7 +18,7 @@ const Footer = () => {
                 className="text-cyan-300 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer">
-                Impressum
+                Imprint & Privacy Policy
               </a>
             </div>
         </footer>

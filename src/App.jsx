@@ -8,13 +8,9 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-// TODO: Add Links to NavBar
-// TODO: ADD Spotify to NavBar
-// TODO: Think about adding NavBar fast scrolls
+
 // TODO: HERO: CHANGE PICTURE
 // TODO: AboutMe: CHANGE PICTURE - make it Scrollable?!?
-// TODO: AboutMe: Contact and Location - under headline
-// TODO: Tech Stack: Hover Picture
 // TODO: Projects: Pictures, Content
 // TODO: Create Footer with Impressum & Datenschutz
 
@@ -28,14 +24,26 @@ const App = () => {
           <div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
         </div>
       </div>
-      <div className='container mx-auto px-8'>
+      <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <AboutMe />
-        <TechStack />
-        <Cv />
-        <Projects />
-        <Contact />
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="about">
+          <AboutMe />
+        </section>
+        <section id="techstack">
+          <TechStack />
+        </section>
+        <section id="cv">
+          <Cv />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
         <Footer />
       </div>
     </div>

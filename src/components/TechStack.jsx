@@ -65,7 +65,7 @@ const TechStack = () => {
         variants={aniIcons(2.5)}
         initial='initial'
         animate='animate'
-        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10 hover:cursor-pointer group">
+        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10 group">
           <RiReactjsLine className="text-7xl text-cyan-400" />
           <motion.span
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
@@ -118,7 +118,7 @@ const TechStack = () => {
           <motion.span
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           >
-            TypeScript: Beginner 1/5
+            TypeScript: Beginner 2/5
           </motion.span>
         </motion.div>
         <motion.div 
@@ -130,7 +130,7 @@ const TechStack = () => {
           <motion.span
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           >
-            php: Beginner 1/5
+            php: Beginner 2/5
           </motion.span>
         </motion.div>
         <motion.div 
@@ -271,7 +271,7 @@ const TechStack = () => {
         variants={aniIcons(4.7)}
         initial='initial'
         animate='animate'
-        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10">
+        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10 group">
           <FaBars className="text-7xl text-[#fff]" />
           <motion.span
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
@@ -283,7 +283,7 @@ const TechStack = () => {
         variants={aniIcons(2.7)}
         initial='initial'
         animate='animate'
-        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10">
+        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10 group">
           <GiGrimReaper className="text-7xl text-[#6BC53B]" />
           <motion.span
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"

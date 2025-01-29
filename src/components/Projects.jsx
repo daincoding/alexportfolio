@@ -27,6 +27,8 @@ const Projects = () => {
                     className='w-full max-w-xl lg:w-3/4'>
                         <h6 className='mb-2 font-semibold'>{project.title}</h6>
                         <p className='mb-4 text-neutral-400'>{project.description}</p>
+                        <a className='inline-block mb-4 text-cyan-800 hover:text-cyan-300 transition' href={project.link} target='_blank'>Link</a>
+                        <br/>
                         {project.technologies.map((tech, index) => (
                             <button key={index} className='mr-1 mt-2 rounded bg-neutral-900 px-1 py-0.5 text-sm font-medium text-purple-600'>{tech}</button>
                             ))}
