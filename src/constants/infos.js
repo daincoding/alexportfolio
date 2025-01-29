@@ -2,6 +2,7 @@ import project1 from "../assets/Images/project-1.png";
 import project2 from "../assets/Images/project-2.png";
 import project3 from "../assets/Images/project-3.png";
 import project4 from "../assets/Images/project-4.png";
+import project5 from "../assets/Images/project-5.png";
 
 export const EXPERIENCES = [
   {
@@ -79,6 +80,14 @@ export const PROJECTS = [
       "A Website project for Team Hitless an online community for challenge gaming. The goal is to create a place where you find all the guides and tutorials for your challenge.",
     technologies: ["HTML", "CSS", "React", "TypeScript", "Vite", "ChakraUI"],
     link: 'https://hitlessguides.vercel.app/',
+  },
+  {
+    title: "Coreborn Game",
+    image: project5,
+    description:
+      "Created whole Soundscape of a multiplayer Game project and smaller games (OST,SFX,Atmo, Mix&Master).",
+    technologies: ["Ableton", "Audition", "Adobe", "Affinity", "Notion"],
+    link: 'https://store.steampowered.com/app/1926090/Coreborn/',
   },
   {
     title: "Music Projects (dain. / 90 Miles / Toyou)",
