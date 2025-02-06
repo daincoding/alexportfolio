@@ -58,12 +58,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Hitless Stats - DBE Academy Project",
+    image: project1,
+    description:
+      "More infos soon with link",
+    technologies: ["HTML", "CSS", "React", "Node.js", "Tailwind CSS", "Figma", "JavaScript", "SQLite", "Prisma"],
+    link: 'https://panske.dev',
+  },
+  {
     title: "Portfolio Website",
     image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Node.js", "Tailwind CSS", "Figma", "JavaScript"],
-    link: 'https://alexander-panske.com',
+    link: 'https://panske.dev',
   },
   {
     title: "Music Portfolio",
