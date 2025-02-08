@@ -1,3 +1,3 @@
 # React + Vite
 
-WIP Portfolio with Vite, React, JS & Tailwind CSS
+Portfolio with Vite, React, JS & Tailwind CSS & Framer Motion
