@@ -3,11 +3,12 @@ import project2 from "../assets/Images/project-2.png";
 import project3 from "../assets/Images/project-3.png";
 import project4 from "../assets/Images/project-4.png";
 import project5 from "../assets/Images/project-5.png";
+import project6 from "../assets/Images/project-6.png";
 
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "Student - Fullstack Dev. (Education)",
+    role: "Fullstack Dev. (Education) - Certified",
     company: "DBE Academy",
     description: `I’m learning all about web development using a variety of tools. The program emphasizes a hands-on approach, and I work on multiple side projects to deepen my understanding of each tool.`,
     technologies: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "php", "MySQL / SQLite", "Tailwind CSS", "Chakra UI", "Bootstrap", "Git", "Notion"],
@@ -59,11 +60,11 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Hitless Stats - DBE Academy Project",
-    image: project1,
+    image: project6,
     description:
-      "More infos soon with link",
+      "WIP - Website for Statistic tracking for Hitless Challenge Runner. Every infos are on Github at the moment.",
     technologies: ["HTML", "CSS", "React", "Node.js", "Tailwind CSS", "Figma", "JavaScript", "SQLite", "Prisma"],
-    link: 'https://panske.dev',
+    link: 'https://github.com/daincoding/hitless-stats',
   },
   {
     title: "Portfolio Website",
