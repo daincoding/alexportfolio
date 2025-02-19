@@ -23,7 +23,7 @@ import {
   SiDavinciresolve,
   SiObsstudio
 } from "react-icons/si";
-import { DiSqllite } from "react-icons/di";
+import { DiMysql, DiSqllite } from "react-icons/di";
 import { GiGrimReaper } from "react-icons/gi";
 import { animate, motion } from 'framer-motion'
 
@@ -143,6 +143,18 @@ const TechStack = () => {
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           >
             SQLite: Beginner 2/5
+          </motion.span>
+        </motion.div>
+        <motion.div 
+        variants={aniIcons(4.1)}
+        initial='initial'
+        animate='animate'
+        className="rounded-2xl border-4 border-neutral-800 p-4 mt-10 group">
+          <DiMysql className="text-7xl text-[#14425E]" />
+          <motion.span
+            className="absolute left-1/2 top-full mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg px-3 py-1 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          >
+            MySQL: Beginner 2/5
           </motion.span>
         </motion.div>
         <motion.div 
